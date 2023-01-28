@@ -69,3 +69,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # conteur
+Simple React component called "Compteur" that renders a counter value and two buttons, "Incrementer" and "Decrementer", on the screen. When the "Incrementer" button is clicked, the state variable "compteur" is incremented by 1 using the "setCompteur" function. When the "Decrementer" button is clicked, the state variable "compteur" is decremented by 1 using the "setCompteur" function. The "compteur" state variable is used to display the current count on the screen.
+The first piece of code use function component and hooks, the second one use class component and states.
+In the class component version, the componentDidMount, componentDidUpdate and componentWillUnmount are lifecycle methods.
+componentDidMount is used to run some code after the component has rendered, componentDidUpdate is used to run some code after the component has updated (after setState) and componentWillUnmount is used to run some code when the component is unmounted.
+## App
+Simple React application that renders a button to "Monter" and a button to "Demonter" on the screen. When the "Monter" button is clicked, the state variable "isMonter" is set to true and the component "Compteur" is rendered. When the "Demonter" button is clicked, the state variable "isMonter" is set to false and the component "Compteur" is not rendered. The "isMonter" state variable is used to control the disabled property of the buttons and the visibility of the "Compteur" component.
+The first piece of code use function component and hooks, the second one use class component and states.
+## Result :
+![Capture d’écran 2023-01-28 à 16 47 39](https://user-images.githubusercontent.com/117936276/215275919-a216e45a-2d5c-40f5-b1d8-d23b904d407a.png)
+
